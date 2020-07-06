@@ -11,7 +11,7 @@ module.exports = [{
   devtool: 'source-map',
   entry: files,
   output: {
-    path: `${__dirname}/dist/assets`,
+    path: `${__dirname}/assets`,
     filename: 'js/[name].js',
   },
   module: {
@@ -55,7 +55,7 @@ module.exports = [{
   mode: 'production',
   entry: files,
   output: {
-    path: `${__dirname}/dist/assets`,
+    path: `${__dirname}/assets`,
     filename: 'js/[name].min.js',
   },
   module: {
